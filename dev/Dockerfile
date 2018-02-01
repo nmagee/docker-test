@@ -3,4 +3,6 @@ FROM nginx
 
 EXPOSE 80
 
+CMD ["date"]
+
 CMD ["/usr/bin/nginx"]
